@@ -52,6 +52,8 @@ public class App {
 			printer.setBraceStyleSetting(ASPrettyPrinter.BraceStyle_Sun);
 			printer.setArrayInitWrapOptions(new WrapOptions(WrapOptions.WRAP_BY_COLUMN_ONLY_ADD_CRS));
 			printer.setSpacesInsideParensEtc(0);
+			printer.setBlankLinesBeforeControlStatement(0);
+			// printer.setEmptyStatementsOnNewLine(false);
 			// printer.setKeepBlankLines(true);
 			// printer.setBlankLinesToEndFunctions(0);
 			// printer.setWrapObjectItemsAlignStart(true);
